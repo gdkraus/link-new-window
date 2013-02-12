@@ -7,4 +7,4 @@ jQuery(document).ready(function(){
 	// Be sure to adjust the src to point to the local version of the new window icon.
 	jQuery('a[target="_blank"]').each(function(){jQuery(this).html(jQuery(this).html() + '<span><img src="new-window.png" alt="opens in a new window"></span>')});
 
-}
+});
