@@ -1,0 +1,34 @@
+/*
+/* NOTE: the "ncsu-a11y-link-new-window" class can be changed to whatever you want. This naming
+/* scheme is to try to ensure a unique class name when dynamically inserting the class into an
+/* unknown document.
+*/
+
+/* Remove the border from linked images */
+a.ncsu-a11y-link-new-window img{
+	border:0;
+}
+
+/* Hide the image off screen while the link is not focused, hovered, or active */
+a.ncsu-a11y-link-new-window span {
+   position:absolute;
+   left:-999px;
+   width:1px;
+   height:1px;
+   top:auto;
+   overflow:hidden;
+}
+
+/* Show the icon when the link is focused, hovered, or active. */
+a.ncsu-a11y-link-new-window:hover span,
+a.ncsu-a11y-link-new-window:focus span,
+a.ncsu-a11y-link-new-window:active span {
+    position:absolute;
+    top:inherit; left:inherit; width:inherit; height:inherit;
+    border:1px solid #888;
+    background-color:#fff;
+    padding:0.2em 0.2em 0.1em 0.2em;
+    border-radius: 5px;
+    display:inline;
+    margin-left:0.5em;
+}
