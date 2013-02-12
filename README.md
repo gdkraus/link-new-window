@@ -13,3 +13,14 @@ Having links open in new windows can be disorienting to screen reader users, scr
 This solution automatically adds an icon with alt text to all images with target ="_blank" to notify users that a link will open in a new window.
 
 This implementation is based on the W3C example at http://www.w3.org/TR/2012/NOTE-WCAG20-TECHS-20120103/G201.
+
+Working Example
+===============
+
+http://accessibility.oit.ncsu.edu/tools/link-new-window/test.html
+
+Code to Insert in <head>
+========================
+
+<link href="link-new-window.css" rel="stylesheet" media="screen" type="text/css">
+<script src="link-new-window.js"></script> 
