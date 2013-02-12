@@ -18,9 +18,3 @@ Working Example
 ===============
 
 http://accessibility.oit.ncsu.edu/tools/link-new-window/test.html
-
-Code to Insert in <head>
-========================
-
-<link href="link-new-window.css" rel="stylesheet" media="screen" type="text/css">
-<script src="link-new-window.js"></script> 
